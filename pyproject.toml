@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trividia-truemetrix-hid"
+version = "0.1.0"
+description = "Standalone Python USB HID client for Trividia Health TRUE METRIX blood glucose meters"
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.11"
+dependencies = [
+    "hidapi>=0.14.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bonelifer/trividia-truemetrix-hid"
+
+[project.scripts]
+trividia-truemetrix = "trividia_truemetrix_hid.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "flake8>=7.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trividia_truemetrix_hid"]
