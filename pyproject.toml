@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bonelifer/trividia-truemetrix-hid"
+Homepage = "https://github.com/home-health-hub/trividia-truemetrix-hid"
 
 [project.scripts]
 trividia-truemetrix = "trividia_truemetrix_hid.cli:main"
