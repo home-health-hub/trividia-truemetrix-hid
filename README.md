@@ -58,7 +58,7 @@ it to make treatment decisions -- read your meter's own display for that.
 ## Installation
 
 ```bash
-pip install git+https://github.com/bonelifer/trividia-truemetrix-hid.git
+pip install git+https://github.com/home-health-hub/trividia-truemetrix-hid.git
 ```
 
 ## Library usage
@@ -157,8 +157,8 @@ commands, if any, aren't in the source this package was ported from).
 
 Contributions are welcome!
 
-- **Bug reports**: [Open an issue](https://github.com/bonelifer/trividia-truemetrix-hid/issues).
-- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/bonelifer/trividia-truemetrix-hid/discussions).
+- **Bug reports**: [Open an issue](https://github.com/home-health-hub/trividia-truemetrix-hid/issues).
+- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/home-health-hub/trividia-truemetrix-hid/discussions).
 - Pull requests are welcome for bug fixes or discussed features.
 
 ## Acknowledgments
