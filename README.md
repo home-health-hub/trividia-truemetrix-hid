@@ -1,5 +1,9 @@
 # trividia-truemetrix-hid
 
+![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white) ![USB HID](https://img.shields.io/badge/USB-HID-FF7A61?logo=usb&logoColor=white)
+
+[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](https://github.com/home-health-hub/trividia-truemetrix-hid/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/home-health-hub/trividia-truemetrix-hid#contributing) [![Discussions](https://img.shields.io/badge/discussions-welcome-blue)](https://github.com/home-health-hub/trividia-truemetrix-hid/discussions)
+
 A standalone Python USB HID client for Trividia Health TRUE METRIX blood
 glucose meters: TRUE METRIX, TRUE METRIX GO, and TRUE METRIX AIR. It reads
 device identity and stored glucose readings directly from the meter over
